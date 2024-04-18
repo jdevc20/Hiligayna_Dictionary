@@ -1,0 +1,49 @@
+.app-body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fefffc;
+    color: #5d5d5c;
+}
+
+.word {
+    border-radius: 10px;
+    margin: 3px;
+    padding: 5px;
+}
+
+.word-result-list {
+    overflow-y: auto;
+    height: 90vh;
+    scrollbar-width: thin;
+}
+
+.highlight {
+    background-color: #f7f7f5;
+}
+
+
+.language-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.language-item {
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed */
+    background-color: #f0f0f0; /* Example background color */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 20px; /* Rounded corners */
+    background-color: transparent;
+    border: dashed 1px;
+}
+.kir {
+    /*background-color: mediumvioletred;*/
+}
+.hil {
+   /* background-color: cornflowerblue;*/
+}
+
+
